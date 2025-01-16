@@ -97,7 +97,7 @@ I will walk you through the repo and tell you the steps to use & implement the i
 
 - Allows users to submit queries and generate emails in real-time.
 
-### Contributing
+## Contributing
 
  Contributions are welcome! To contribute:
 
