@@ -109,7 +109,7 @@ I will walk you through the repo and tell you the steps to use & implement the i
 
 - Submit a pull request.
 
-### Contact
+## Contact
 
 For questions or suggestions, please contact:
 
