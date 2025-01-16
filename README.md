@@ -33,7 +33,7 @@ Cold Email Generator is an end-to-end tool designed for software service compani
 
 ## Tech Stack
 
-- Llama 3.1: Large language model for natural language generation.
+- Llama 3.3: Large language model for natural language generation.
 
 - Chroma DB: Lightweight, open-source vector database for semantic search.
 
@@ -61,11 +61,10 @@ Cold Email Generator is an end-to-end tool designed for software service compani
 
 ## Usage
 
-- Run the Streamlit application:
+# Run the Streamlit application:
+               streamlit run app.py
 
-- streamlit run app.py
-
-- Use the web interface to:
+# Use the web interface to:
 
 - Input a job description URL or upload a JSON file containing job details.
 
@@ -77,21 +76,22 @@ Cold Email Generator is an end-to-end tool designed for software service compani
 
 ## How It Works
 
-- Data Extraction: Extracts job requirements from a webpage or JSON file.
+ # Data Extraction:
+ - Extracts job requirements from a webpage or JSON file.
 
-- Semantic Matching:
+ # Semantic Matching:
 
 - Stores and retrieves employee skills using Chroma DB.
 
 - Matches job requirements with relevant employee portfolios.
 
-- Cold Email Generation:
+# Cold Email Generation:
 
 - Uses Llama 3.1 to create personalized and professional cold emails.
 
 - Incorporates job requirements and matched portfolio details.
 
-- User Interface:
+# User Interface:
 
 - Facilitates seamless interaction through Streamlit.
 
