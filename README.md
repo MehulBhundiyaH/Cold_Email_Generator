@@ -13,25 +13,25 @@ I will walk you through the repo and tell you the steps to use & implement the i
 - Paste the link of the job page in the input box and submit.
 - Within 30 seconds, the cold email will be ready for your use !
 
-** Overview
+## Overview
 
 Cold Email Generator is an end-to-end tool designed for software service companies to streamline the process of creating personalized cold emails for job opportunities listed by potential clients. By leveraging advanced AI and database technologies like Llama 3.1, Chroma DB, LangChain, and Streamlit, the tool automates the extraction of job requirements, matches them with relevant portfolios, and generates tailored cold emails, enabling efficient and targeted outreach.
 
-** Features
+## Features
 
--Job Requirement Extraction: Automatically extracts key details from job postings on client websites.
+- Job Requirement Extraction: Automatically extracts key details from job postings on client websites.
 
--Personalized Email Generation: Crafts tailored cold emails using job requirements and employee skill sets.
+- Personalized Email Generation: Crafts tailored cold emails using job requirements and employee skill sets.
 
--Portfolio Matching: Identifies the most relevant employee profiles for a given job role.
+- Portfolio Matching: Identifies the most relevant employee profiles for a given job role.
 
--Semantic Search with Vector Database: Uses Chroma DB to perform semantic searches for skill and job requirement matching.
+- Semantic Search with Vector Database: Uses Chroma DB to perform semantic searches for skill and job requirement matching.
 
--Streamlit-based UI: Provides an intuitive user interface for easy interaction and email draft generation.
+- Streamlit-based UI: Provides an intuitive user interface for easy interaction and email draft generation.
 
--Data Cleaning: Includes utility functions to clean and preprocess job requirements and portfolio data for effective processing.
+- Data Cleaning: Includes utility functions to clean and preprocess job requirements and portfolio data for effective processing.
 
-** Tech Stack
+## Tech Stack
 
 - Llama 3.1: Large language model for natural language generation.
 
@@ -43,7 +43,7 @@ Cold Email Generator is an end-to-end tool designed for software service compani
 
 - Python: Core programming language for development.
 
-** Requirements
+## Requirements
 
 - Python 3.8 or higher
 
@@ -59,7 +59,7 @@ Cold Email Generator is an end-to-end tool designed for software service compani
 
 - API Key for Llama 3.3 or any compatible LLM
 
-** Usage
+## Usage
 
 - Run the Streamlit application:
 
@@ -75,7 +75,7 @@ Cold Email Generator is an end-to-end tool designed for software service compani
 
 - Review the generated email draft and download it for further use.
 
-** How It Works
+## How It Works
 
 - Data Extraction: Extracts job requirements from a webpage or JSON file.
 
@@ -97,9 +97,9 @@ Cold Email Generator is an end-to-end tool designed for software service compani
 
 - Allows users to submit queries and generate emails in real-time.
 
-  Contributing
+## Contributing
 
-** Contributions are welcome! To contribute:
+ Contributions are welcome! To contribute:
 
 - Fork the repository.
 
@@ -109,7 +109,7 @@ Cold Email Generator is an end-to-end tool designed for software service compani
 
 - Submit a pull request.
 
-** Contact
+## Contact
 
 For questions or suggestions, please contact:
 
