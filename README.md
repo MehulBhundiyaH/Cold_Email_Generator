@@ -1,6 +1,10 @@
-### COLD_EMAIL_GENERATOR
+# COLD_EMAIL_GENERATOR
 
 Hello !
+
+## Overview
+
+Cold Email Generator is an end-to-end tool designed for software service companies to streamline the process of creating personalized cold emails for job opportunities listed by potential clients. By leveraging advanced AI and database technologies like Llama 3.1, Chroma DB, LangChain, and Streamlit, the tool automates the extraction of job requirements, matches them with relevant portfolios, and generates tailored cold emails, enabling efficient and targeted outreach.
 
 I will walk you through the repo and tell you the steps to use & implement the idea.
 
@@ -12,10 +16,6 @@ I will walk you through the repo and tell you the steps to use & implement the i
 - You'll see the basic streamlit app interface.
 - Paste the link of the job page in the input box and submit.
 - Within 30 seconds, the cold email will be ready for your use !
-
-## Overview
-
-Cold Email Generator is an end-to-end tool designed for software service companies to streamline the process of creating personalized cold emails for job opportunities listed by potential clients. By leveraging advanced AI and database technologies like Llama 3.1, Chroma DB, LangChain, and Streamlit, the tool automates the extraction of job requirements, matches them with relevant portfolios, and generates tailored cold emails, enabling efficient and targeted outreach.
 
 ## Features
 
@@ -61,10 +61,10 @@ Cold Email Generator is an end-to-end tool designed for software service compani
 
 ## Usage
 
-# Run the Streamlit application:
+### Run the Streamlit application:
                streamlit run app.py
 
-# Use the web interface to:
+### Use the web interface to:
 
 - Input a job description URL or upload a JSON file containing job details.
 
@@ -76,28 +76,28 @@ Cold Email Generator is an end-to-end tool designed for software service compani
 
 ## How It Works
 
- # Data Extraction:
+ ### Data Extraction:
  - Extracts job requirements from a webpage or JSON file.
 
- # Semantic Matching:
+ ### Semantic Matching:
 
 - Stores and retrieves employee skills using Chroma DB.
 
 - Matches job requirements with relevant employee portfolios.
 
-# Cold Email Generation:
+### Cold Email Generation:
 
 - Uses Llama 3.1 to create personalized and professional cold emails.
 
 - Incorporates job requirements and matched portfolio details.
 
-# User Interface:
+### User Interface:
 
 - Facilitates seamless interaction through Streamlit.
 
 - Allows users to submit queries and generate emails in real-time.
 
-## Contributing
+### Contributing
 
  Contributions are welcome! To contribute:
 
@@ -109,7 +109,7 @@ Cold Email Generator is an end-to-end tool designed for software service compani
 
 - Submit a pull request.
 
-## Contact
+### Contact
 
 For questions or suggestions, please contact:
 
